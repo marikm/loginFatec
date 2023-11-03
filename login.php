@@ -15,15 +15,15 @@
        
        <main> <!-- Dentro dessa tag está o conteúdo         principal da pagina-->
             <div class="login">
-                <div class="imagem"><img src="./img/perfil.png" alt="imagem de login"></div>
+                <div class="imagem"><img src="./img/perfil.png" width="200" alt="imagem de login"></div>
                 <form action="">
                     <div>
-                        <label for="usuario">USUÁRIO</label>
-                        <input type="text" name="usuario" id="usuario"/>
+                        <label class="label" for="usuario">USUÁRIO</label>
+                        <input class="input-login" type="text" name="usuario" id="usuario"/>
                     </div>
                     <div>
-                        <label for="senha">SENHA</label>
-                        <input type="password" name="senha" id="senha"/>
+                        <label class="label" for="senha">SENHA</label>
+                        <input class="input-login" type="password" name="senha" id="senha"/>
                     </div>
                     <div class="button">
                         <button type="submit">L O G I N</button>
