@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sistema de login</title>
+    <link rel="stylesheet" href="./css/login.css">
 </head>
 <body>
     <form action="">
-       <h1>Sejam Bem-Vindos</h1> 
+        <div class=titulo>
+            <h1>Sejam&nbsp;<b class="negrito">Bem-Vindos</b></h1> 
+        </div>
+        <!-- &nbsp; usado para nao permitir quebra de liha entre elementos -->
+       
        <main> <!-- Dentro dessa tag está o conteúdo         principal da pagina-->
             <div class="login">
                 <div class="imagem"><img src="./img/perfil.png" alt="imagem de login"></div>
@@ -20,8 +25,8 @@
                         <label for="senha">SENHA</label>
                         <input type="password" name="senha" id="senha"/>
                     </div>
-                    <div>
-                        <input type="submit" value="L O G I N">
+                    <div class="button">
+                        <button type="submit">L O G I N</button>
                     </div>
                 </form>
             </div>
