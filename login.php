@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de login</title>
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/estiloLogin.css">
 </head>
 <body>
     <form action="">
@@ -16,7 +16,7 @@
        <main> <!-- Dentro dessa tag está o conteúdo         principal da pagina-->
             <div class="login">
                 <div class="imagem"><img src="./img/perfil.png" width="200" alt="imagem de login"></div>
-                <form action="">
+                <form action="" method="POST">
                     <div>
                         <label class="label" for="usuario">USUÁRIO</label>
                         <input class="input-login" type="text" name="usuario" id="usuario"/>

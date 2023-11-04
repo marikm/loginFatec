@@ -27,14 +27,20 @@ body{
 .titulo .negrito{
     font-weight: 700;
 }
+.login .imagem{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    
+}
 .login{
     width: 500px;
     margin: 0 auto;
     margin-top: 30px;
-    background-color: aqua;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 input{
     margin: 25px 0px;
@@ -48,6 +54,7 @@ input{
     height: 45px;
     font-size: 16px;
     margin-top: 5px;
+    display: flex;
 }
 
 .login .label{
