@@ -16,7 +16,7 @@
        <main> <!-- Dentro dessa tag está o conteúdo         principal da pagina-->
             <div class="login">
                 <div class="imagem"><img src="./img/perfil.png" width="200" alt="imagem de login"></div>
-                <form action="" method="POST">
+                <form action="arquivo.php" method="POST">
                     <div>
                         <label class="label" for="usuario">USUÁRIO</label>
                         <input class="input-login" type="text" name="usuario" id="usuario"/>
@@ -26,7 +26,7 @@
                         <input class="input-login" type="password" name="senha" id="senha"/>
                     </div>
                     <div class="button">
-                        <button type="submit">L O G I N</button>
+                        <input type="submit" value="L O G I N">
                     </div>
                 </form>
             </div>
